@@ -132,9 +132,7 @@ getlon<-function(ele)
 	return(as.numeric(unlist(strsplit(ele,"[,]"))[1]))
 }
 
-#Ejecución de las funciones
-setwd("C:/Users/Usuario/Documents/01_UBA/Maestria Data Mining/Proyectos/02_Integrador/00_Datasets/03_Procesados/02_Pasos")
-
+#EjecuciÃ³n de las funciones
 process.data('03_Paso2_pruebaScriptConcurso.csv')
 
 
